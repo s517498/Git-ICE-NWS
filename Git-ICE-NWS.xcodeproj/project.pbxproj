@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		A9C031AD1DDA717A00430246 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C031AC1DDA717A00430246 /* AppDelegate.swift */; };
-		A9C031AF1DDA717A00430246 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C031AE1DDA717A00430246 /* FirstViewController.swift */; };
-		A9C031B11DDA717A00430246 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C031B01DDA717A00430246 /* SecondViewController.swift */; };
+		A9C031AF1DDA717A00430246 /* EhVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C031AE1DDA717A00430246 /* EhVC.swift */; };
+		A9C031B11DDA717A00430246 /* BeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C031B01DDA717A00430246 /* BeeVC.swift */; };
 		A9C031B41DDA717A00430246 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C031B21DDA717A00430246 /* Main.storyboard */; };
 		A9C031B61DDA717A00430246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C031B51DDA717A00430246 /* Assets.xcassets */; };
 		A9C031B91DDA717A00430246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C031B71DDA717A00430246 /* LaunchScreen.storyboard */; };
+		A9C031C11DDA74FF00430246 /* SeaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C031C01DDA74FF00430246 /* SeaVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A9C031A91DDA717A00430246 /* Git-ICE-NWS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git-ICE-NWS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C031AC1DDA717A00430246 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9C031AE1DDA717A00430246 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		A9C031B01DDA717A00430246 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A9C031AE1DDA717A00430246 /* EhVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EhVC.swift; sourceTree = "<group>"; };
+		A9C031B01DDA717A00430246 /* BeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeVC.swift; sourceTree = "<group>"; };
 		A9C031B31DDA717A00430246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9C031B51DDA717A00430246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9C031B81DDA717A00430246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9C031BA1DDA717A00430246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C031C01DDA74FF00430246 /* SeaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeaVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				A9C031AC1DDA717A00430246 /* AppDelegate.swift */,
-				A9C031AE1DDA717A00430246 /* FirstViewController.swift */,
-				A9C031B01DDA717A00430246 /* SecondViewController.swift */,
+				A9C031AE1DDA717A00430246 /* EhVC.swift */,
+				A9C031B01DDA717A00430246 /* BeeVC.swift */,
+				A9C031C01DDA74FF00430246 /* SeaVC.swift */,
 				A9C031B21DDA717A00430246 /* Main.storyboard */,
 				A9C031B51DDA717A00430246 /* Assets.xcassets */,
 				A9C031B71DDA717A00430246 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9C031B11DDA717A00430246 /* SecondViewController.swift in Sources */,
+				A9C031C11DDA74FF00430246 /* SeaVC.swift in Sources */,
+				A9C031B11DDA717A00430246 /* BeeVC.swift in Sources */,
 				A9C031AD1DDA717A00430246 /* AppDelegate.swift in Sources */,
-				A9C031AF1DDA717A00430246 /* FirstViewController.swift in Sources */,
+				A9C031AF1DDA717A00430246 /* EhVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +261,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Git-ICE-NWS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -268,6 +273,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.nwmissouri.Git-ICE-NWS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
